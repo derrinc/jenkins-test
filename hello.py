@@ -19,4 +19,4 @@ def getMember(memberName):
     return("Hello %s\n" % escape(memberName))
 
 if(__name__ == "__main__"):
-    app.run()
+    app.run(host="172.31.16.52", port=8080)
